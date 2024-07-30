@@ -1,0 +1,21 @@
+.class-one, .class-three {
+    background-color: lightcoral;
+    font-family: "Arial";
+}
+
+#id-two {
+    color: blue;
+    font-size: xx-large;
+}
+
+.class-three {
+    font-size: x-large;
+
+}
+
+#id-four {
+    background-color: lightgreen;
+    font-weight: bold;
+    font-size: x-large;
+
+}
