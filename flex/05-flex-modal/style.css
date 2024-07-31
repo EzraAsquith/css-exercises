@@ -16,6 +16,10 @@ body {
 }
 
 .modal {
+  outline: auto;
+  display: flex;
+  gap: 16px;
+  padding: 16px;
   background: white;
   width: 480px;
   border-radius: 10px;
@@ -48,6 +52,24 @@ body {
   justify-content: center;
   border: 1px solid #eee;
   padding: 0;
+}
+
+.header {
+  outline: auto;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  font-weight: bold;
+  font-size: larger;
+}
+
+.icon {
+  flex-shrink: 0;
+}
+
+.text {
+  outline: auto;
+  margin-bottom: 16px;
 }
 
 button {
